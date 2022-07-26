@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Введите слова через запятую");
+string s = Console.ReadLine();
+string[] str = s.Split(',');
